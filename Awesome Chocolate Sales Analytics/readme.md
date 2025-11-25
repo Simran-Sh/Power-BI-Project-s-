@@ -2,6 +2,11 @@
 
 ---
 
+**Goal:**  
+Analyze chocolate sales performance across regions, products, and salespeople to understand **revenue, costs, and profitability**, and help management make better business decisions.
+
+---
+
 **Tools and Skills used in Project:**
 1. Dashboard Design
 2. DAX Measures
@@ -21,8 +26,23 @@
 ---
 
 **Now Load the Raw data with 5 Tables**
-| **Fact Table:** | Shipment|
-| **Dimention Tables:** | Product | Geography | Sales Person | Calender|
+
+- **Fact Table**
+  - `Shipment`
+    - Contains transactional data for each shipment:
+      - Sales
+      - Boxes
+      - Costs
+      - Date Key
+      - Product Key
+      - Geography Key
+      - Sales Person Key
+
+- **Dimension Tables**
+  - `Product` – Product name, category, subcategory, etc.
+  - `Geography` – Region, country, city, etc.
+  - `Sales Person` – Sales representative details.
+  - `Calendar` – Date, month, quarter, year, etc.
 
 Observe the Data Model and fix the relationship to the ones not connected. Need to make this as Star Schema with One to Many Relationship with Fact Table
 
