@@ -18,3 +18,6 @@ As I’m learning Power BI, I’m focusing on:
 ## Project 2: DAX Concepts
 
 ---
+
+More projects will be added as I continue learning and working on real-world datasets using Power BI.
+
