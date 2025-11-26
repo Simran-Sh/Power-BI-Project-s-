@@ -19,5 +19,9 @@ As I’m learning Power BI, I’m focusing on:
 
 ---
 
+## Project 3: Customer, Product & Shipping Insights Dashboard
+
+---
+
 More projects will be added as I continue learning and working on real-world datasets using Power BI.
 
